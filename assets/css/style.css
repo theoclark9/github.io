@@ -188,7 +188,7 @@ padding:0px;
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
         min-height: 300px;
-        color: #009933;
+        color: #fff;
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -285,7 +285,7 @@ padding:0px;
   CONTACT SECTION STYLES
  ============================================================ */
 #contact {
-    background: url(../img/Bright.jpeg) no-repeat center center;
+    background: url(../img/Bright.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
