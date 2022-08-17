@@ -158,7 +158,7 @@ padding:0px;
     SERVICES STYLES
 ==================================*/
 #services {
-    background-color: #595958;
+    background-color: rgba(237, 237, 237, 1);
 }
 
     #services i {
@@ -172,7 +172,7 @@ padding:0px;
         padding-top: 15px;
     }
 /* =============================================================
-  CLIENTS SECTION STYLES
+  BLOG SECTION STYLES
  ============================================================ */
 
 #clients {
@@ -262,7 +262,7 @@ padding:0px;
         opacity: 1;
     }
 /* =============================================================
-  TESTIMONIAL SECTION STYLES
+  INSPIRATION SECTION STYLES
  ============================================================ */
 #testimonial {
     background: url(../img/Forrest.jpg) no-repeat center center;
@@ -294,7 +294,7 @@ padding:0px;
 }
 
     #contact .overlay {
-        background-color: rgba(0,0,0,0.9);
+        background-color: rgba(0,0,0,0.3);
         padding-top: 90px;
         min-height: 300px;
         color: #fff;
