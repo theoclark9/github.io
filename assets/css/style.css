@@ -158,7 +158,7 @@ padding:0px;
     SERVICES STYLES
 ==================================*/
 #services {
-    background-color: rgba(237, 237, 237, 1);
+    background: url(../img/Calm.jpg) no-repeat center center
 }
 
     #services i {
@@ -171,12 +171,73 @@ padding:0px;
         padding-bottom: 5px;
         padding-top: 15px;
     }
+
+/* =============================================================
+ PORTFOLIO SECTION STYLES
+ ============================================================ */
+#portfolio {
+    background: url(../img/laptop.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+/* FOR CHANGING COLOR OF ACTIVE CATEGORY */
+.caegories a.active {
+    background-color: #000;
+    border: 2px solid #FFF;
+}
+
+/* FOR TRANSITION BEAUTIFULLY */
+.isotope .isotope-item {
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+#works .work-wrapper {
+    border: 2px solid #FFF;
+    padding: 2px;
+    margin: 5px 5px 10px 5px;
+}
+
+#works img {
+    filter: gray; /* FOR IE6-9 */
+    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    opacity: 0.8;
+}
+
+    #works img:hover {
+        filter: none; /* FOR IE6-9 */
+        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+        opacity: 1;
+    }
+/* =============================================================
+  INSPIRATION SECTION STYLES
+ ============================================================ */
+#testimonial {
+    background: url(../img/Forrest.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+}
+
+    #testimonial .overlay {
+        background-color: rgba(0,0,0,0.7);
+        padding-top: 90px;
+        min-height: 300px;
+        color: #fff;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 /* =============================================================
   BLOG SECTION STYLES
  ============================================================ */
-
 #clients {
-    background: url(../img/~Calm~.jpg) no-repeat center center;
+    background: url(../img/Calm.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -226,61 +287,6 @@ padding:0px;
 #clients .thumbnail {
     background-color: transparent;
 }
-
-/* =============================================================
- PORTFOLIO SECTION STYLES
- ============================================================ */
-
-/* FOR CHANGING COLOR OF ACTIVE CATEGORY */
-.caegories a.active {
-    background-color: #009933;
-    border: 2px solid #009933;
-}
-
-/* FOR TRANSITION BEAUTIFULLY */
-.isotope .isotope-item {
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    transition-duration: 0.8s;
-}
-
-#works .work-wrapper {
-    border: 2px solid #FFF;
-    padding: 2px;
-    margin: 5px 5px 10px 5px;
-}
-
-#works img {
-    filter: gray; /* FOR IE6-9 */
-    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-    opacity: 0.8;
-}
-
-    #works img:hover {
-        filter: none; /* FOR IE6-9 */
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-        opacity: 1;
-    }
-/* =============================================================
-  INSPIRATION SECTION STYLES
- ============================================================ */
-#testimonial {
-    background: url(../img/Forrest.jpg) no-repeat center center;
-    padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    -moz-background-size: cover;
-    background-attachment: fixed;
-}
-
-    #testimonial .overlay {
-        background-color: rgba(0,0,0,0.7);
-        padding-top: 90px;
-        min-height: 300px;
-        color: #fff;
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
 /* =============================================================
   CONTACT SECTION STYLES
  ============================================================ */
