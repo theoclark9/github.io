@@ -175,18 +175,11 @@ padding:0px;
 /* =============================================================
  PORTFOLIO SECTION STYLES
  ============================================================ */
-#portfolio {
-    background: url(../img/laptop.jpg) no-repeat center center;
-    padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    -moz-background-size: cover;
-    background-attachment: fixed;
-}
+
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #000;
-    border: 2px solid #FFF;
+    background-color: #9F9FA0;
+    border: 2px solid #9F9FA0;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -197,7 +190,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FFF;
+    border: 2px solid #9F9FA0;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
