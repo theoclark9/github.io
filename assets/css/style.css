@@ -176,7 +176,7 @@ padding:0px;
  ============================================================ */
 
 #clients {
-    background: url(../img/Stats.jpg) no-repeat center center;
+    background: url(../img/~Calm~.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -245,7 +245,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #009933;
+    border: 2px solid #FFF;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -285,7 +285,7 @@ padding:0px;
   CONTACT SECTION STYLES
  ============================================================ */
 #contact {
-    background: url(../img/Bright.jpg) no-repeat center center;
+    background: url(../img/Stats.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -294,7 +294,7 @@ padding:0px;
 }
 
     #contact .overlay {
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.72);
         padding-top: 90px;
         min-height: 300px;
         color: #fff;
