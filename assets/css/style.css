@@ -124,7 +124,7 @@ padding:0px;
  ============================================================ */
 
 #header {
-    background: url(../img/mountain.jpeg) no-repeat center center;
+    background: url(../img/Sunset.jpeg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -154,17 +154,18 @@ padding:0px;
         padding-bottom: 40px;
     }
 
+
 /*================================
     SERVICES STYLES
 ==================================*/
 #services {
-    background: url(../img/Calm.jpg) no-repeat center center
+    background-color: rgba(237, 237, 237, 1);
 }
 
     #services i {
         font-size: 80px;
         padding: 30px;
-        color: #009933;
+        color: #FF2276;
     }
 
     #services h4 {
@@ -178,8 +179,8 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #9F9FA0;
-    border: 2px solid #9F9FA0;
+    background-color: #FF2276;
+    border: 2px solid #FF2276;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -190,7 +191,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #9F9FA0;
+    border: 2px solid #FF2276;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
