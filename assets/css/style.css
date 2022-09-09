@@ -40,7 +40,7 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #009933;
+    background-color: #2C97DE;
 }
 
 .clr-set {
@@ -93,7 +93,7 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #009933;
+    background-color: #2C97DE;
     border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
@@ -124,7 +124,7 @@ padding:0px;
  ============================================================ */
 
 #header {
-    background: url(../img/Sunset.jpeg) no-repeat center center;
+    background: url(../img/mountain.jpeg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -144,7 +144,7 @@ padding:0px;
         font-weight: 900;
         padding-top: 180px;
         padding-bottom: 35px;
-        color: #009933;
+        color: #2C97DE;
     }
 
 
@@ -179,8 +179,8 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #FF2276;
-    border: 2px solid #FF2276;
+    background-color: #2C97DE;
+    border: 2px solid #2C97DE;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -191,7 +191,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FF2276;
+    border: 2px solid #2C97DE;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -254,14 +254,14 @@ padding:0px;
 }
 
     .clients-carousel .thumbnail {
-        border: 1px solid #009933;
+        border: 1px solid #2C97DE;
     }
 
     .clients-carousel .carousel-control.left {
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #009933;
+        background: #2C97DE;
         left: -15px;
     }
 
@@ -269,7 +269,7 @@ padding:0px;
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #009933;
+        background: #2C97DE;
         right: -15px;
     }
 
