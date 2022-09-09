@@ -210,7 +210,7 @@ padding:0px;
 /* =============================================================
   INSPIRATION SECTION STYLES
  ============================================================ */
-#testimonial {
+#bio {
     background: url(../img/Forrest.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
@@ -219,7 +219,7 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #testimonial .overlay {
+    #bio .overlay {
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
         min-height: 300px;
